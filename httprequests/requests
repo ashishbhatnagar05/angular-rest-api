@@ -1,0 +1,6 @@
+to get token:
+    POST: http://localhost:1002/oauth/token?grant_type=password&username=ashish&password=123
+
+to get details
+    GET: http://localhost:1002/api/getuser
+    pass bearer token :coming from above call
